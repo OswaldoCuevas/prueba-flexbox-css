@@ -97,7 +97,10 @@ html, body{
         flex-direction: column;
         height: auto;
     }
-    
+    .container .item:nth-child(2n){
+        flex-direction: column;
+        height: auto;
+    }
     .container .item .imagen{
         height: 100%;
         width: 100%;
